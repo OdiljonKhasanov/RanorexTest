@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Regression\App1\AddToList.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Regression\App1\AddToList.rxrec" />
+    <Element value="Regression\App1\AddPerson.rxrec" />
+    <Element value="Regression\App1\AddPersonDataDriven.rxrec" />
+    <Element value="RegressionWebinar.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

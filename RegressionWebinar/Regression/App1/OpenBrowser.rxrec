@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b1c8d96a-098d-48ff-9992-f29982a8ad67"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="RegressionWebinar.Regression.App1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="d8c54c85-76c4-432b-b074-38886d661b7c"
+	name="RegressionWebinarRepository"
+	relativepath="..\..\RegressionWebinarRepository.rxrep">
+		<codegen
+		classname="RegressionWebinarRepository"
+		namespace="RegressionWebinar">
+		</codegen>
+		<rootfolder
+		id="500842b0-20ff-45e5-a766-c2a0b75b7e03"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

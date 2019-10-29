@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6ace3e0a-2ca0-42a7-bdd6-4fe02cff1fd2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validation2"
+	namespace="RegressionWebinar.Regression.App1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="de80b9d4-20ba-4fb8-8225-da1128863d97">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4abbc8fc-a1b3-403b-aaeb-efe61a477951"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.ranorex.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="48f287e5-afb1-45cc-bde7-751bc883f577"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d67a6e7c-4d20-41bb-bcf2-418165966246"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.ranorex.com']//td[#'count']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2c538f98-13a7-4bd0-8259-2450ffb06f97">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d67a6e7c-4d20-41bb-bcf2-418165966246"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, tdtag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="tdtag"
+				rect="2705,604,338,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						count
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						VIP count: 1
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+					<attribute
+					name="align"
+					type="System.String">
+						center
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						14.95px
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						329.69px
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.ranorex.com']//td[#'count']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e4aa65dc-5856-4806-9264-b623d84308ea">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA1AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKAGj7zfX+gpaQfeb6/wBBUdzOttA0zglVxkDr1xQBLRWZ/blt/wA85vyH+NH9
+uW3/ADzm/If41PPHuRzx7mnRWZ/blt/zzm/If40f25bf885vyH+NHPHuHPHuadFZn9uW3/POb8h/
+jR/blt/zzm/If40c8e4c8e5p1RuNODsWiIXP8J6VF/blt/zzm/If40f25bf885vyH+NLmiJyhLcb
+/Zs396P8z/hR/Zs396P8z/hTv7ctv+ec35D/ABo/ty2/55zfkP8AGi8e5Fqfcb/Zs396P8z/AIUf
+2bN/ej/M/wCFO/ty2/55zfkP8aP7ctv+ec35D/Gi8e4Wp9wTTJM/O6ge3NaEUSQxhEGAP1rP/ty2
+/wCec35D/Gj+3Lb/AJ5zfkP8aOaJUXCOxp0Vmf25bf8APOb8h/jR/blt/wA85vyH+NPnj3K549zT
+orM/ty2/55zfkP8AGj+3Lb/nnN+Q/wAaOePcOePc06KzP7ctv+ec35D/ABo/ty2/55zfkP8AGjnj
+3Dnj3NOisz+3Lb/nnN+Q/wAaP7ctv+ec35D/ABo549w549zTorM/ty2/55zfkP8AGj+3Lb/nnN+Q
+/wAaOePcOePc06KzP7ctv+ec35D/ABo/ty2/55zfkP8AGjnj3Dnj3NOisz+3Lb/nnN+Q/wAaP7ct
+v+ec35D/ABo549w549zTpksSTRlHGQf0rP8A7ctv+ec35D/Gj+3Lb/nnN+Q/xo549w549wfTJN3y
+OpHvxTf7Nm/vR/mf8Kd/blt/zzm/If40f25bf885vyH+NK8TO1Mb/Zs396P8z/hR/Zs396P8z/hT
+v7ctv+ec35D/ABo/ty2/55zfkP8AGi8e4Wp9xv8AZs396P8AM/4VPb6cEYNKwbH8I6VF/blt/wA8
+5vyH+NH9uW3/ADzm/If40c0RpU0adFZn9uW3/POb8h/jR/blt/zzm/If40+ePcvnj3NOisz+3Lb/
+AJ5zfkP8aP7ctv8AnnN+Q/xo549w549zTorM/ty2/wCec35D/Gj+3Lb/AJ5zfkP8aOePcOePc06K
+zo9Zt5ZVjVJcsQoyB3/Gr+4/3D+lNNPYpST2HUU3cf7h/Sjcf7h/SmMdRTdx/uH9KNx/uH9KAHUU
+3cf7h/Sjcf7h/SgB1FN3H+4f0o3H+4f0oAdRTdx/uH9KKAH0UUUAFFFFABRRRQAUUUUANH3m+v8A
+QVT1j/kGTf8AAf8A0IVcH3m+v9BVPWP+QZN/wH/0IUpbMmXwsdFL5Gm28m3ICIDz0GBzT7i68lmA
+TdtjLnnFJboJdNijbo0IH6VCtvO1nP5i/vpFC4yOgGB/WhbDWxN9okaSRY4lOwAnL4zkZ9KmjlWS
+FZRwrDPPaq62u6aYyhgrBQMORnjnoaluYi9o0UYA4AA7cdqYxwmiMZkEqFBwW3DA/GnCRDtw6ndy
+uD1+lVpEkd1lEG3Y4JUkbm4xn04z60xIZY3jkEecM5KAjKg9PagC0Z4VALTRgHoSw5pouovOePeA
+VAJJIxVaG2lUDcgyIWXqOpNPt45IZNzRk5iReCOo6jrQBakcRoXYEgdgMk023l8+FZNu3d2zUlQ2
+cbRWqI4wwzkfjQBNRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQBmar/wAfth/10/qtXGndpHSGMPs+8S2OfQcGqeq/8fth/wBdP6rV
+oCWCSXbEZFc7hggEHHQ5qVuyI/Ex63ULRh2kVM9nIBprXOJjGqgj5edwHU1FHayJLuYBiY3yR03E
+5qJLWcGPKdBFnkdjzVFl9ZomfasiFvQMM0LJG7FVdWZeoByRVRLeUJANu0q7liCOAc//AFqLW3kj
+eLeH/dqRkldv4YGT+NAF6iiigAooooAKKKKAFooooAKKKKACiiigAooooAaPvN9f6Cqesf8AIMm/
+4D/6EKuD7zfX+gpHRZFKuoZT1BGRSaurCaurFC11OzjtYkebDKgBG09cfSpP7Vsv+e//AI43+FT/
+AGO2/wCfaH/vgUfY7b/n2h/74FL3ibSIP7Vsv+e//jjf4Uf2rZf89/8Axxv8Kn+x23/PtD/3wKPs
+dt/z7Q/98Cj3g98g/tWy/wCe/wD443+FH9q2X/Pf/wAcb/Cp/sdt/wA+0P8A3wKPsdt/z7Q/98Cj
+3g98g/tWy/57/wDjjf4Uf2rZf89//HG/wqf7Hbf8+0P/AHwKPsdt/wA+0P8A3wKPeD3yD+1bL/nv
+/wCON/hUX9t2v92X/vkf41c+x23/AD7Q/wDfAqO1tLZrWEtbxElFJJQc8Ue8Hvlf+27X+7L/AN8j
+/Gj+27X+7L/3yP8AGrv2O1/59of++BR9jtf+faH/AL4FHvB75S/tu1/uy/8AfI/xo/tu1/uy/wDf
+I/xq79jtf+faH/vgUfZLUDm3h/74FHvB75S/tu1/uy/98j/Gj+27X+7L/wB8j/Gri2loyhlt4SCM
+ghBzS/Y7X/n2h/74FHvB75S/tu1/uy/98j/Gj+27X+7L/wB8j/Grv2O1/wCfaH/vgUfY7X/n2h/7
+4FHvB75S/tu1/uy/98j/ABo/tu1/uy/98j/Grv2O1/59of8AvgUfY7X/AJ9of++BR7we+Uv7btf7
+sv8A3yP8aP7btf7sv/fI/wAau/Y7X/n2h/74FH2O1/59of8AvgUe8HvlL+27X+7L/wB8j/Gj+27X
++7L/AN8j/Grv2O1/59of++BR9jtf+faH/vgUe8HvlL+27X+7L/3yP8aP7btf7sv/AHyP8au/Y7X/
+AJ9of++BR9jtf+faH/vgUe8HvlL+27X+7L/3yP8AGj+27X+7L/3yP8au/Y7X/n2h/wC+BUV1aWy2
+sxW3iBCMQQg44o94PfGf2rZf89//ABxv8KP7Vsv+e/8A443+FT/Y7b/n2h/74FH2O2/59of++BR7
+we+Qf2rZf89//HG/wo/tWy/57/8Ajjf4VP8AY7b/AJ9of++BR9jtv+faH/vgUe8HvkH9q2X/AD3/
+APHG/wAKP7Vsv+e//jjf4VP9jtv+faH/AL4FH2O2/wCfaH/vgUe8HvkH9q2X/Pf/AMcb/Cj+1bL/
+AJ7/APjjf4VP9jtv+faH/vgUfY7b/n2h/wC+BR7we+Qf2rZf89//ABxv8KP7Vsv+e/8A443+FT/Y
+7b/n2h/74FH2O2/59of++BR7we+Qf2rZf89//HG/wo/tWy/57/8Ajjf4VP8AY7b/AJ9of++BR9jt
+v+faH/vgUe8HvkH9q2X/AD3/APHG/wAKP7Vsv+e//jjf4VP9jtv+faH/AL4FH2O2/wCfaH/vgUe8
+HvmZe3cFze2XkybtsnPBGOR61r71/vD86jW1t1YMsEQIOQQg4qahJrccU1dsbvX+8Pzo3r/eH506
+iqKG71/vD86N6/3h+dOooAbvX+8Pzo3r/eH506igBu9f7w/Ojev94fnTqKAG71/vD86KdRQAtFFF
+ABRRRQAUUUUAFFFFADSuTkEj6UbD/fb9KKKADYf77fpRsP8Afb9KKKADYf77fpRsP99v0oooANh/
+vt+lGw/32/SiigA2H++36UbD/fb9KKKADYf77fpTLT/jzh/65r/KiigCtYKJmuXmAeQSNEzHoVHY
+DsPal0xjtnQE+XFKY0U8kAe/p6elFFAD9ThilspTLGjlUJXcoODjtUZjIkkgtmFvHEgbbGi4YnPX
+jpx2x9aKKT2DqRfZbeVLBpLeJ2YAEsgJI2GrD+ZBcRnzS0b7h5e0ALgZGMDPb1ooqpdRLZDIJJy1
+rI05ZZ+WQqML8pIA4z+eanuh5atcjl4o22g9OcH+goooe4RZFIJ4zFF9pdjM2N5VcrgE8cY7d80i
+TSrJHE0hfE5QsQMsNhbn9OnpRRQhjfNnlulhWYxqTJkqoJ4IxjI96igje7kzNO+Ht9rBQoB5I9M+
+9FFSug/6/E1BwKKKKYgooooAKiu/+POb/rm38qKKAH7D/fb9KNh/vt+lFFABsP8Afb9KNh/vt+lF
+FABsP99v0o2H++36UUUAGw/32/SjYf77fpRRQAbD/fb9KNh/vt+lFFABsP8Afb9KNh/vt+lFFABs
+P99v0o2H++36UUUAGw/32/SjYf77fpRRQAbD/fb9KNh/vt+lFFABsP8Afb9KNh/vt+lFFABsP99v
+0o2H++36UUUAGw/32/SjYf77fpRRQAbD/fb9KKKKAP/Z
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				VIP count: 0
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="d8c54c85-76c4-432b-b074-38886d661b7c"
+	name="RegressionWebinarRepository"
+	relativepath="..\..\RegressionWebinarRepository.rxrep">
+		<codegen
+		classname="RegressionWebinarRepository"
+		namespace="RegressionWebinar">
+		</codegen>
+		<rootfolder
+		id="500842b0-20ff-45e5-a766-c2a0b75b7e03"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validation2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

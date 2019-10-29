@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.09s"
+		durationms="6094"
+		type="root"
+		rid="e123aaf17f3fa20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="okhasanov"
+		rxversion="9.2.0.0"
+		host="PBITOK-2817"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5206x1080"
+		timestamp="10/24/2019 2:46:53 PM"
+		timestampiso="2019-10-24T21:46:53"
+		endtime="10/24/2019 2:46:59 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.789"
+			timeRelativeToTestModuleStartTime="00:05.789"
+			timeWallClock="14:46:59"
+			time="00:05.789"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.ranorex.com/web-testing-examples/vip/' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

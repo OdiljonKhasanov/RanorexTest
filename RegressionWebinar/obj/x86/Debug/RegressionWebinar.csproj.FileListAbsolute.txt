@@ -1,0 +1,10 @@
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.rxtmg
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.rxtst
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.exe.config
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.xml
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.exe
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\RegressionWebinar.pdb
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\obj\x86\Debug\RegressionWebinar.csprojResolveAssemblyReference.cache
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\obj\x86\Debug\RegressionWebinar.exe
+C:\Users\okhasanov\Documents\Ranorex\RanorexStudio Projects\RegressionWebinar\RegressionWebinar\obj\x86\Debug\RegressionWebinar.pdb

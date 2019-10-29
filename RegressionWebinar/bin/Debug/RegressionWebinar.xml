@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RegressionWebinar</name>
+    </assembly>
+    <members>
+        <member name="T:RegressionWebinar.RegressionWebinarRepository">
+            <summary>
+            The class representing the RegressionWebinarRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.RegressionWebinarRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RegressionWebinarRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.RegressionWebinarRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.Category">
+            <summary>
+            The Category item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.CategoryInfo">
+            <summary>
+            The Category item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.Gender">
+            <summary>
+            The Gender item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.GenderInfo">
+            <summary>
+            The Gender item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.InputTagAdd">
+            <summary>
+            The InputTagAdd item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.InputTagAddInfo">
+            <summary>
+            The InputTagAdd item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.Count">
+            <summary>
+            The Count item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.CountInfo">
+            <summary>
+            The Count item info.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.RegressionWebinarRepositoryFolders.ApplicationUnderTestAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.AddPersonDataDriven">
+             <summary>
+            The AddPersonDataDriven recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.AddPersonDataDriven.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPersonDataDriven.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPersonDataDriven.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.AddPersonDataDriven.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPersonDataDriven.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPersonDataDriven.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPersonDataDriven.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPersonDataDriven.varFirstName">
+            <summary>
+            Gets or sets the value of variable varFirstName.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPersonDataDriven.varLastName">
+            <summary>
+            Gets or sets the value of variable varLastName.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.AddPerson">
+             <summary>
+            The AddPerson recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.AddPerson.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPerson.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPerson.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.AddPerson.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPerson.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddPerson.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPerson.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPerson.varFirstName">
+            <summary>
+            Gets or sets the value of variable varFirstName.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddPerson.varLastName">
+            <summary>
+            Gets or sets the value of variable varLastName.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.AddToList">
+             <summary>
+            The AddToList recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.AddToList.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddToList.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddToList.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.AddToList.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddToList.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.AddToList.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.AddToList.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.DeletePerson">
+             <summary>
+            The DeletePerson recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.DeletePerson.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.DeletePerson.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.DeletePerson.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.DeletePerson.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.DeletePerson.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.DeletePerson.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.DeletePerson.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.Validation1">
+             <summary>
+            The Validation1 recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.Validation1.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.Validation1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.Validation1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RegressionWebinar.Regression.App1.Validation2">
+             <summary>
+            The Validation2 recording.
+             </summary>
+        </member>
+        <member name="F:RegressionWebinar.Regression.App1.Validation2.repo">
+            <summary>
+            Holds an instance of the global::RegressionWebinar.RegressionWebinarRepository repository.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RegressionWebinar.Regression.App1.Validation2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RegressionWebinar.Regression.App1.Validation2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RegressionWebinar.Regression.App1.Validation2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

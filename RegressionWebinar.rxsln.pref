@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{9BC6AA23-B51F-43AF-89B7-917B150C883D}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>97e5004f-d0b6-49ee-a19c-507194a8a56f</string>
+      <string>4a3e72ce-86a1-4a35-b5b1-c1aa1f80ff47</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution RegressionWebinar[Solution Items[]RegressionWebinar[]]]&#xD;&#xA;Solution RegressionWebinar\RegressionWebinar\Regression&#xD;&#xA;Solution RegressionWebinar" />
+  <StartupProject value="{9BC6AA23-B51F-43AF-89B7-917B150C883D}" />
+</Properties>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8c30da77-23d2-4e68-9147-98e2cf0ba714"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeletePerson"
+	namespace="RegressionWebinar.Regression.App1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="70c1d325-4f31-4ccd-ae71-fda9338f15d0"
+		sx="3199"
+		sy="467"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="71df6874-ace2-414b-a0ae-a4c3b857e70d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="3168,462,63,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						last
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						Delete
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						last
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Delete
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						14.95px
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Delete
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						39.02px
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.ranorex.com']//input[#'Delete']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="03b18f4b-ad8b-4518-a036-7971fa206553">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c54c85-76c4-432b-b074-38886d661b7c"
+	name="RegressionWebinarRepository"
+	relativepath="..\..\RegressionWebinarRepository.rxrep">
+		<codegen
+		classname="RegressionWebinarRepository"
+		namespace="RegressionWebinar">
+		</codegen>
+		<rootfolder
+		id="500842b0-20ff-45e5-a766-c2a0b75b7e03"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeletePerson.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

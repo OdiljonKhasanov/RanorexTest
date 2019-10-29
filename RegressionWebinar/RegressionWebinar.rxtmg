@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RegressionWebinar"
+      id="5f680c67-780d-4b9f-b4d9-7765b945901e"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RegressionWebinar"
+      id="5f680c67-780d-4b9f-b4d9-7765b945901e"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
